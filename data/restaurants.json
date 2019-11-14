@@ -61,14 +61,14 @@
             "人気商品", 
             "巻き寿司(6 Pcs)", 
             "クラムチャウダー(CC)", 
-            "サイドオーダーSide Order (SO)", 
+            "サイドオーダー(SO)", 
             "刺身(5 Pcs)", 
             "フィッシュアンドチップス(FC)", 
             "サラダ(SL)", 
             "ライスボウル(RB)", 
             "サンドウィッチ(SW)", 
             "スペシャルロール", 
-            "Special Combo (PC)"
+            "スペシャルコンボ(PC)"
         ]
     }, 
     {
@@ -102,19 +102,19 @@
                             {
                                 "price": 5.0, 
                                 "description": null, 
-                                "name": "Add Lobster", 
+                                "name": "ロブスター追加", 
                                 "id": "B01MZCAUHU"
                             }, 
                             {
                                 "price": 1.5, 
                                 "description": null, 
-                                "name": "Add House Bacon", 
+                                "name": "ベーコン追加", 
                                 "id": "B01MS9XMZA"
                             }, 
                             {
                                 "price": 3.0, 
                                 "description": null, 
-                                "name": "Add White Truffle Oil", 
+                                "name": "トリュフオイル追加", 
                                 "id": "B01N24UI1S"
                             }
                         ], 
@@ -128,7 +128,7 @@
                             {
                                 "price": 3.0, 
                                 "description": null, 
-                                "name": "Bacon", 
+                                "name": "ベーコン", 
                                 "id": "B01CTA1FBG"
                             }
                         ], 
@@ -161,8 +161,8 @@
         "price_range": 2.0, 
         "id": "B01CT9VDD2", 
         "categories": [
-            "Large Plates", 
-            "Small Plates"
+            "ラージプレート", 
+            "スモールプレート"
         ]
     }, 
     {
@@ -181,55 +181,55 @@
                             {
                                 "price": 2.0, 
                                 "description": null, 
-                                "name": "Goat Cheese", 
+                                "name": "ゴートチーズ", 
                                 "id": "B01D8TDFV0"
                             }, 
                             {
                                 "price": 1.0, 
                                 "description": null, 
-                                "name": "Olives", 
+                                "name": "オリーブ", 
                                 "id": "B01D8TCH3M"
                             }, 
                             {
                                 "price": 1.0, 
                                 "description": null, 
-                                "name": "Garlic", 
+                                "name": "ガーリック", 
                                 "id": "B01D8TD8VC"
                             }, 
                             {
                                 "price": 2.0, 
                                 "description": null, 
-                                "name": "Sausage", 
+                                "name": "ソーセージ", 
                                 "id": "B01D8TD4YI"
                             }, 
                             {
                                 "price": 1.0, 
                                 "description": null, 
-                                "name": "Onions", 
+                                "name": "オニオン", 
                                 "id": "B01D8TD5J2"
                             }, 
                             {
                                 "price": 1.0, 
                                 "description": null, 
-                                "name": "Bruno Nippy Peppers", 
+                                "name": "ブルーノニッピペッパー", 
                                 "id": "B01D8TDHAY"
                             }, 
                             {
                                 "price": 1.0, 
                                 "description": null, 
-                                "name": "Pepperoni", 
+                                "name": "ペペローニ", 
                                 "id": "B01D8TDALK"
                             }, 
                             {
                                 "price": 1.0, 
                                 "description": null, 
-                                "name": "Roasted Red Peppers", 
+                                "name": "ローストレッドペッパー", 
                                 "id": "B01D8TCT7G"
                             }, 
                             {
                                 "price": 1.0, 
                                 "description": null, 
-                                "name": "Mushrooms", 
+                                "name": "マッシュルーム", 
                                 "id": "B01D8TCWXC"
                             }
                         ], 
@@ -243,73 +243,73 @@
                             {
                                 "price": 1.0, 
                                 "description": null, 
-                                "name": "Roasted Red Peppers", 
+                                "name": "ローストレッドペッパー", 
                                 "id": "B01D8TCVYC"
                             }, 
                             {
                                 "price": 1.0, 
                                 "description": null, 
-                                "name": "Garlic", 
+                                "name": "ガーリック", 
                                 "id": "B01D8TDF9M"
                             }, 
                             {
                                 "price": 1.0, 
                                 "description": null, 
-                                "name": "Olives", 
+                                "name": "オリーブ", 
                                 "id": "B01D8TCWM8"
                             }, 
                             {
                                 "price": 1.0, 
                                 "description": null, 
-                                "name": "Basil", 
+                                "name": "バジル", 
                                 "id": "B01D8TC930"
                             }, 
                             {
                                 "price": 2.0, 
                                 "description": null, 
-                                "name": "Goat Cheese", 
+                                "name": "ゴートチーズ", 
                                 "id": "B01D8TDBFK"
                             }, 
                             {
                                 "price": 2.0, 
                                 "description": null, 
-                                "name": "Sausage", 
+                                "name": "ソーセージ", 
                                 "id": "B01D8TCKHU"
                             }, 
                             {
                                 "price": 1.0, 
                                 "description": null, 
-                                "name": "Onions", 
+                                "name": "オニオン", 
                                 "id": "B01D8TCSNG"
                             }, 
                             {
                                 "price": 1.0, 
                                 "description": null, 
-                                "name": "Bruno Nippy Peppers", 
+                                "name": "ブルーノナッピペッパー", 
                                 "id": "B01D8TCO2G"
                             }, 
                             {
                                 "price": 2.0, 
                                 "description": null, 
-                                "name": "Pepperoni", 
+                                "name": "ペペローニ", 
                                 "id": "B01D8TC8AE"
                             }, 
                             {
                                 "price": 2.0, 
                                 "description": null, 
-                                "name": "Mushrooms", 
+                                "name": "マッシュルーム", 
                                 "id": "B01D8TCJRQ"
                             }, 
                             {
                                 "price": 2.0, 
                                 "description": null, 
-                                "name": "Shredded Parmesan", 
+                                "name": "パルメザンチーズ", 
                                 "id": "B01D8TC8PE"
                             }, 
                             {
                                 "price": 2.0, 
                                 "description": null, 
-                                "name": "Shredded Mozzarella", 
+                                "name": "モッツアレラチーズ", 
                                 "id": "B01D8TD560"
                             }
                         ], 
@@ -342,10 +342,10 @@
         "price_range": 2.0, 
         "id": "B01CT54GYE", 
         "categories": [
-            "Beverages", 
-            "Pizzas", 
-            "Sides", 
-            "Popular Dishes"
+            "飲み物", 
+            "ピザ", 
+            "サイド", 
+            "人気商品"
         ]
     }
 ]

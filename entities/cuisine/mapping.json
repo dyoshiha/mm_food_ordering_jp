@@ -10,7 +10,7 @@
         },
         {
             "whitelist": [],
-            "cname": "Burgers"
+            "cname": "ハンバーガー"
         },
         {
             "whitelist": [],
@@ -30,7 +30,7 @@
         },
         {
             "whitelist": [],
-            "cname": "Pizza"
+            "cname": "ピザ"
         }
     ]
 }
