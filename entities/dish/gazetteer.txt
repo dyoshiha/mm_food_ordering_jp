@@ -185,6 +185,7 @@ barbecue beef sandwiches
 49er Roll
 49ers
 49ers Roll
+フォーティナイナーズロール
 49ers Rolls
 49th Er
 5. Spicy Crispy Fried Mushroom
@@ -531,6 +532,7 @@ Asanté
 Asaparagus Maki
 Asian Chicken Salad
 Asian Garlic Shrimp Rice Bowl
+アジアンガーリックシュリンプライスボウル
 Asian Ginger Chicken
 Asian Kung Pao
 Asian Salad
@@ -859,6 +861,7 @@ Barley Tabouleh
 Baron of Beef
 Barq's Root Beer
 Basa Special Roll
+バサスペシャルロール
 Basa fish fillet in tamarind sauce
 Basic
 Basic 3 Stacks
@@ -1688,6 +1691,7 @@ Chef Salad
 Chef Sampler
 Chef Special Chicken Wing
 Chef Special Combo
+シェフスペシャルコンボ
 Chef's Salad
 Chef's Zesty Biryani
 Chefz Gravity Grab
@@ -2184,6 +2188,7 @@ Citrus 3
 Citrus Hurricane Juice
 City Roll
 Clam Chowder
+クラムチャウダー
 Clam Chowder Bread Bowl
 Clam and Wild Crab Chowder Soup
 Clams Heaven
@@ -2691,6 +2696,7 @@ Double Special, Two Medium Pizza 14'' with 2 Toppings
 Double Spicy Tuna Roll
 Double Tuna Roll
 Double Tuna Roll (8 Pcs)
+ダブルツナロール(8 Pcs)
 Double Turkey Burger
 Double decker sandwich with ham, bacon, turkey, lettuce, tomato, and mayo
 Down Under Fish Burger
@@ -2703,6 +2709,7 @@ Drag it Thru The Garden
 Dragon
 Dragon Beef
 Dragon Roll
+ドラゴンロール
 Dressing
 Dried Bonito, Olive Oil and Soy Sauce
 Dried Cuttlefish
@@ -2771,6 +2778,7 @@ Early Bird with Meat
 Ebi
 Ebi  Sushi
 Ebi (Cooked Shrimp)
+エビ
 Ebi Nigiri
 Ebi Nigiri Sushi
 Ebi Roll
@@ -3047,6 +3055,7 @@ Fish Burrito
 Fish Cake
 Fish Cake Soup
 Fish Ceviche
+魚のセビーチェ
 Fish Curry
 Fish Delight
 Fish Filet
@@ -3148,6 +3157,7 @@ Four Cheese Lasagna
 Four Cheese Lasagna with Meat Sauce
 Four Cheese Pizza
 Four Cheese White Pizza
+四種チーズのホワイトピザ
 Four Cheese White Pizza (Gluten Free)
 Four Seasons Roll
 Four Toppings
@@ -3435,6 +3445,7 @@ Garlic Egg Noodle
 Garlic Eggplant
 Garlic Fried Rice
 Garlic Fries
+ガーリックフライ
 Garlic Lamb Ribs with Thai Street Sauce
 Garlic Mayo Dipping Sauce
 Garlic Meatless Chicken
@@ -3866,6 +3877,7 @@ Ham and Turkey Club with Bacon
 Ham, Bacon, or Chicken Apple Sausage
 Ham, Eggs and Cheese Pie
 Hamachi
+ハマチ
 Hamachi  Sushi
 Hamachi & Lime Roll
 Hamachi (Yellow Tail)
@@ -4966,6 +4978,7 @@ Magritte
 Maguro
 Maguro  Sushi
 Maguro (Tuna)
+まぐろ
 Maguro Nigiri
 Maguro Nigiri Sushi
 Maguro Sashimi
@@ -5029,6 +5042,7 @@ Marais
 Margherita
 Margherita Pizza
 Margherita Pizza (Gluten Free)
+マルガリータピザ（グルテンフリー）
 Margherita Style Pepper Pizza
 Maria's Meat Tostada
 Maria's Melt
@@ -5055,6 +5069,7 @@ Marybeth's Meatballs
 Mas Carne – Mucho meat
 Masago
 Masago (Capelin Roe)
+まさご
 Masako Nigiri
 Masala
 Masala Chai
@@ -5189,6 +5204,7 @@ Mexican Breakfast egg dish
 Mexican Chocolate
 Mexican Classic Burger
 Mexican Coke
+メキシカンコーラ
 Mexican Cola
 Mexican Cream
 Mexican Dog
@@ -5687,6 +5703,7 @@ Orange Juice
 Orange Kombucha
 Orange Meatless Chicken
 Orange San Pellegrino
+オレンジサンペレグリノ
 Orange Soda
 Orange and Carrot Juice
 Orange, Turmeric, Apple, Lemon
@@ -5743,6 +5760,7 @@ Oxtail Hash
 Oxtail Soup
 Oyako Don
 Oyster
+オイスター
 Oyster Burger
 PO-Boy Fried Shrimp Sandwich
 POACHED
@@ -6049,6 +6067,7 @@ Pesto Special Pizza
 Pesto Turkey Sandwich
 Pesto with  pepper
 Pesto with Red Pepper and Goat Cheese
+ゴートチーズと唐辛子のバジルピザ
 Pesto with Red Pepper and Goat Cheese (Gluten Free)
 Pestolicius
 Petillon
@@ -6204,6 +6223,7 @@ Poh Taak
 Poh Tak Soup
 Poke Ball
 Poke Combo
+ポケコンボ
 Poke Fish Large
 Poke Fish Medium
 Poke Fish Small
@@ -6999,6 +7019,7 @@ Salmon Steamed
 Salmon Teriyaki
 Salmon Teriyaki & California Roll
 Salmon Teriyaki Rice Bowl
+サーモンテリヤキライスボウル
 Salmon Teriyaki and California Roll
 Salmon Teriyaki and Shrimp Combo
 Salmon Topped Ceasar Salad
@@ -7125,6 +7146,7 @@ Sausage Bolognese Pasta
 Sausage Burrito
 Sausage and Mushroom Pizza
 Sausage and Mushroom Pizza (Gluten Free)
+ソーセージとマッシュルームのピザ（グルテンフリー）
 Sausage and Peppers
 Sausage and mushroom pizza with red peppers
 Sausage mafaldine pasta
@@ -7243,6 +7265,7 @@ Seasoned salmon and garden veggies
 Seasoned vegetables with rice
 Seaweed Egg Flower Soup
 Seaweed Salad
+海藻サラダ
 Seaweed nigiri
 Secret Breakfast
 Secret Dipping Sauce
@@ -7514,11 +7537,13 @@ Smoked Ham with Fresh Cloves of Garlic
 Smoked Pepper Bacon
 Smoked Pork
 Smoked Salmon
+スモークサーモン
 Smoked Salmon  Sushi
 Smoked Salmon Benedict
 Smoked Salmon Nigiri
 Smoked Salmon Nigiri Sushi
 Smoked Salmon Sandwich
+スモークサーモンサンドウィッチ
 Smoked Salmon Sashimi
 Smoked Salmon Scramble
 Smoked Trout Sandwich
@@ -7591,6 +7616,7 @@ Soy Chai Latte
 Soy Milk
 Soy Sauce Chicken Wings
 Soyu Salmon Poke
+醤油サーモンポケ
 Soyu Tuna Poke
 Spagetti Bolognese
 Spaghetti
@@ -7697,6 +7723,7 @@ Spicy Cold Beef
 Spicy Cold Noodle
 Spicy Corncake with Blackeyed Peas
 Spicy Creamy Salmon Poke
+スパイシークリーミーサーモンポケ
 Spicy Crispy Chicken Wings
 Spicy Crispy Fried Calamari
 Spicy Crispy Fried Mushroom
@@ -7927,6 +7954,7 @@ Steamed Noodles
 Steamed Plain Noodle
 Steamed Pork and Shrimp Dumpling “Siew Mai”
 Steamed Rice
+スチームライス
 Steamed Rice Noodles
 Steamed Salted Egg Yolk Bun
 Steamed Shrimp Dumpling “ Ha Gao”
@@ -8202,6 +8230,7 @@ Tai Nigiri Sushi
 Tai Sashimi
 Tako
 Tako (Octopus)
+タコ
 Tako Nigiri Sushi
 Takoyaki
 Tamago
@@ -8271,6 +8300,7 @@ Tender Chicken Salad
 Tender Pork Belly
 Tender is the Night Chicken
 Teriyaki Basa Rice Bowl
+バサテリヤキライスボール
 Teriyaki Beef Steak
 Teriyaki Burger
 Teriyaki Chicken Noodle Soup
@@ -8783,6 +8813,7 @@ Una-tem Roll
 Unagi
 Unagi  Sushi
 Unagi (Sea Eel)
+うなぎ
 Unagi Don
 Unagi Fried
 Unagi Nigiri
@@ -9652,6 +9683,7 @@ burger with apple slices add bacon
 burger with cheese
 burger with crab
 burger with fish
+フィッシュバーガー
 burger with fried chili spicy mayo
 burger with lettuce and tomatoes
 burger with oyster

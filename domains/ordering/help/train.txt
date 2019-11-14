@@ -255,3 +255,4 @@ Excuse me, can you help me?
 どうやってやる？
 やり方は？
 難しい
+わからん

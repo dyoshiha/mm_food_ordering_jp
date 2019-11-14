@@ -8,6 +8,7 @@ An Chi
 Arabian Nights Restaurant
 Bangkok Garden Thai Cuisine
 Basa Seafood Express
+バサシーフードエクスプレス
 Beijing Restaurant
 Bellissimo Pizza
 Ben Thai Cafe
@@ -67,6 +68,7 @@ Fire of Brazil
 Firepie
 Firetrail
 Firetrail Pizza
+ファイアトレイルピザ
 Firetrail Pizza 11th
 Firetrail Pizza 11th St
 Firetrail Pizza 11th Street
@@ -128,6 +130,7 @@ Monk burgers
 Monk kettle
 Monk's
 Monk's Kettle
+モンクのやかん
 Monk's burgers
 Monk's kettle burgers
 Monks

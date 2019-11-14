@@ -3,11 +3,11 @@
 
 PARSER_CONFIG = {
     'dish': {
-        'option': {'linking_words': {'with'}},
-        'sys_number': {'max_instances': 1, 'right': False}
+        'option': {'linking_words': {'を'}},
+        'sys_number': {'max_instances': 1, 'right': True}
     },
     'option': {
-        'sys_number': {'max_instances': 1, 'right': False}
+        'sys_number': {'max_instances': 1, 'right': True}
     }
 }
 

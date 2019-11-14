@@ -18,8 +18,8 @@ def default(request, responder):
     When the user asks an unrelated question, convey the lack of understanding for the requested
     information and prompt to return to food ordering.
     """
-    replies = ["Sorry, not sure what you meant there. I can help you order food from your local "
-               "restaurants. Try something like 'I'll have a veggie pizza from firetrail'"]
+    replies = ["申し訳ないのですが理解できません。"
+               "'ファイアトレイルのマルゲリータピザを食べたいな'の様に話しかけて下さい。"]
     responder.reply(replies)
 
 
@@ -31,17 +31,17 @@ def welcome(request, responder):
     try:
         # Get user's name from session information in a request to personalize the greeting.
         responder.slots['name'] = request.context['name']
-        prefix = 'Hello, {name}. '
+        prefix = 'こんにちは、{name}. '
     except KeyError:
-        prefix = 'Hello. '
+        prefix = 'こんにちは。'
 
     # Get suggestions for three restaurants from the knowledge base.
     # Ideally, these should be selected using factors like popularity, proximity, etc.
-    restaurants = app.question_answerer.get(index='restaurants')
+    restaurants = app.question_answerer.get(index='restaurants', _sort='rating', _sort_type='desc')
     suggestions = ', '.join([r['name'] for r in restaurants[0:3]])
 
     # Build up the final natural language response and reply to the user.
-    responder.reply(prefix + 'Some nearby popular restaurants you can order delivery from are '
+    responder.reply(prefix + '注文できるレストランの例は次の通りです：'
                     + suggestions)
 
 
@@ -65,9 +65,8 @@ def provide_help(request, responder):
     # Respond with examples demonstrating how the user can order food from different restaurants.
     # For simplicity, we have a fixed set of demonstrative queries here, but they could also be
     # randomly sampled from a pool of example queries each time.
-    replies = ["I can help you order food delivery from your local restaurants. For example, "
-               "you can say 'I would like a pad see ew from Modern Thai' or 'I feel like "
-               "having a burrito.'"]
+    replies = ["近所のレストランへの注文を承ります。例えばこんな風に話しかけて下さい：'ファイアトレイルのマルゲリータピザを食べたいな'"
+               "の様に話しかけて下さい。"]
     responder.reply(replies)
 
 
@@ -78,7 +77,7 @@ def start_over(request, responder):
     """
     # Clear the dialogue frame and respond with a variation of the welcome message.
     responder.frame = {}
-    replies = ["Ok, let's start over! What restaurant would you like to order from?"]
+    replies = ["初めからやり直します。ご希望のレストランをお知らせください。"]
     responder.reply(replies)
     responder.listen()
 
@@ -103,18 +102,18 @@ def place_order(request, responder):
             # order. In a real application, this would be done by calling an external API to
             # process the transaction. Here, we just reply with a canned response confirming that
             # the order has been placed.
-            replies = ['Great, your order from {restaurant_name} will be delivered in 30-45 '
-                       'minutes.']
+            replies = ['ご注文を承りました。{restaurant_name}へ発注します。30-45分で届く見込みです。'
+                       'ご利用ありがとうございました。']
 
             # Clear the dialogue frame to start afresh for the next user request.
             responder.frame = {}
         else:
             # If no dishes have been requested, prompt the user to order something from the menu.
-            replies = ["I don't have any dishes in the basket yet. What would you like to order "
-                       "from {restaurant_name}?"]
+            replies = ["まだ料理が決まっていません。{restaurant_name}へ何を注文しますか"
+                       "？"]
     else:
         # If no restaurant has been selected, prompt the user to make a selection.
-        replies = ["I'm sorry, you need to select a restaurant before placing an order."]
+        replies = ["どちらのレストランへ発注しましょうか？"]
 
     responder.reply(replies)
 
@@ -162,8 +161,8 @@ def build_order(request, responder):
             # knowledge base (i.e. there are no candidate resolved values to choose from),
             # prompt the user to select a different restaurant.
             responder.slots['restaurant_name'] = restaurant_entity['text']
-            responder.reply("Sorry, I could not find a restaurant called {restaurant_name}. Is "
-                            "there another restaurant you would like to order from?")
+            responder.reply("申し訳ないのですが、{restaurant_name}という名称のレストランが見つかりませんでした。"
+                            "注文したいその他のレストラン名を教えて下さい。")
             responder.listen()
             return
 
@@ -179,6 +178,7 @@ def build_order(request, responder):
 
     # Next, get all the recognized dish entities in the current user query.
     dish_entities = [e for e in request.entities if e['type'] == 'dish']
+    print('KKKKKKKKKKKKKKKK: dish_entities:{}'.format(dish_entities))
 
     # If we cannot find any dish entities in the current query, check the frame to see
     # if the there were any dish entities stored previously
@@ -209,9 +209,9 @@ def build_order(request, responder):
                     # different selection. In a real app, it would be useful to provide
                     # recommendations for dishes similar to the originally requested one,
                     # to assist the user.
-                    responder.reply("Sorry, I couldn't find anything called {dish_name} at "
-                                    "{restaurant_name}. Would you like to order something "
-                                    "else?")
+                    responder.reply("申し訳ないのですが、'{dish_name}'は'{restaurant_name}'"
+                                    "では取り扱っていません。他に注文したいレストランはありますか"
+                                    "？")
                     responder.listen()
                     return
 
@@ -232,7 +232,7 @@ def build_order(request, responder):
                 dish_candidates = [value for value in dish_entity['value']][0:3]
 
                 # Get the knowledge base entry for each of the dishes.
-                dish_entries = [_kb_fetch('menu_items2', dc['id']) for dc in dish_candidates]
+                dish_entries = [_kb_fetch('menu_items', dc['id']) for dc in dish_candidates]
 
                 # Get the restaurant info for each dish from their respective KB entries.
                 restaurant_ids = set([entry['restaurant_id'] for entry in dish_entries])
@@ -241,14 +241,14 @@ def build_order(request, responder):
                 # Compose the response with the restaurant suggestions and reply to the user.
                 responder.slots['suggestions'] = ', '.join(restaurant_names)
                 responder.slots['dish_name'] = dish_entity['text']
-                responder.reply('I found {dish_name} at {suggestions}. Where would you like '
-                                'to order from?')
+                responder.reply('{dish_name}は例えば"{suggestions}"から注文できますよ。どのレストランから注文しましょうか'
+                                '？')
                 responder.listen()
             else:
                 # If none of the user-requested dishes could be resolved to entries in the
                 # knowledge base, notify the user and prompt to choose a restaurant by name.
-                responder.reply("Sorry, I didn't find what you were looking for at a nearby "
-                                "restaurant. What restaurant would you like to order from?")
+                responder.reply("申し訳ないのですが、お探しの品は近所のレストランでは取り扱いが無いようです。"
+                                "注文したいレストランはありますか？")
                 responder.listen()
 
             return
@@ -263,31 +263,35 @@ def build_order(request, responder):
         dish_quantities = {}
         for dish in selected_dishes:
             dish_quantities[dish['name']] = dish_quantities.get(dish['name'], 0) + dish['quantity']
-        dish_names = [(str(dish_quantities[dish]) + ' order of ' + dish)
+        print('##########selected_dishes:{}'.format(selected_dishes))
+        print('##########:{}'.format(dish))
+        print('##########:{}'.format(dish_quantities))
+        print('##########:{}'.format(str(dish_quantities[dish['name']])))
+        dish_names = [dish + (str(dish_quantities[dish]) + 'つ')
                       if dish_quantities[dish] == 1
-                      else (str(dish_quantities[dish]) + ' orders of ' + dish)
+                      else (dish + str(dish_quantities[dish]) + 'つ')
                       for dish in dish_quantities.keys()]
         dish_prices = [_price_dish(dish) for dish in selected_dishes]
         if len(dish_names) > 1:
-            dish_names[-1] = 'and ' + dish_names[-1]
+            dish_names[-1] = 'と' + dish_names[-1]
         if len(dish_names) > 2:
             responder.slots['dish_names'] = ', '.join(dish_names)
         else:
             responder.slots['dish_names'] = ' '.join(dish_names)
         responder.slots['price'] = sum(dish_prices)
-        responder.reply('Sure, I have {dish_names} from {restaurant_name} for a total price of '
-                        '${price:.2f}. Would you like to place the order?')
+        responder.reply('かしこまりました。{dish_names}を{restaurant_name}に注文します。'
+                        '総額は税込みで${price:.2f}です。発注しますか？')
         responder.listen()
     else:
         # If the user hasn't selected any dishes yet, prompt the user to make a selection based
         # on the information that is available so far.
         if selected_restaurant:
             # If the user has chosen a restaurant, prompt to order dishes from that restaurant.
-            responder.reply('Great, what would you like to order from {restaurant_name}?')
+            responder.reply('かしこまりました。{restaurant_name}から何を注文しますか？')
             responder.listen()
         else:
             # If the user has not chosen a restaurant, prompt to do so.
-            responder.reply('What restaurant would you like to order from?')
+            responder.reply('どのレストランから注文しますか？')
             responder.listen()
 
 
@@ -335,7 +339,7 @@ def _resolve_dish(dish_entity, selected_restaurant):
     dish_candidates = [value for value in dish_entity['value']]
 
     # Get the full knowledge base entry for each of the dish candidates.
-    dish_entries = [_kb_fetch('menu_items2', dc['id']) for dc in dish_candidates]
+    dish_entries = [_kb_fetch('menu_items', dc['id']) for dc in dish_candidates]
 
     # Choose the first candidate whose restaurant information matches with the provided restaurant.
     dish = next((d for d in dish_entries if d['restaurant_id'] == selected_restaurant['id']), None)

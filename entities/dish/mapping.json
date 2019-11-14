@@ -46,27 +46,27 @@
         },
         {
             "whitelist": [
-                "masago nigiri",
-                "capelin roe nigiri",
-                "fish roe nigiri"
+                "マサゴ寿司",
+                "まさごにぎり",
+                "マサゴ"
             ],
-            "cname": "Masago (Capelin Roe)",
+            "cname": "まさご",
             "id": "B01MTUOW2R"
         },
         {
             "whitelist": [
                 "dinosaur roll"
             ],
-            "cname": "Dragon Roll",
+            "cname": "ドラゴンロール",
             "id": "B01MZZCPFB"
         },
         {
             "whitelist": [
-                "rice bowl with salmon teriyaki",
-                "teriyaki salmon rice bowl",
-                "rice bowl with teriyaki salmon"
+                "サーモン照り焼き丼",
+                "サーモンテリヤキ丼",
+                "サーモン照り焼きライスボウル"
             ],
-            "cname": "Salmon Teriyaki Rice Bowl",
+            "cname": "サーモンテリヤキライスボウル",
             "id": "B01N9BO0RF"
         },
         {
@@ -78,32 +78,36 @@
         },
         {
             "whitelist": [
-                "hamachi sashimi",
-                "yellow tail sashimi"
+                "ハマチの刺身",
+                "ハマチのサシミ"
             ],
-            "cname": "Hamachi (Yellow Tail)",
+            "cname": "ハマチ",
             "id": "B01N2NYPQM"
         },
         {
             "whitelist": [
-                "octopus sashimi",
-                "tako sashimi"
+                "タコの刺身",
+                "タコのさしみ",
+                "タコのサシミ",
+                "蛸"
             ],
-            "cname": "Tako (Octopus)",
+            "cname": "タコ",
             "id": "B01MRRJELX"
         },
         {
-            "whitelist": [],
-            "cname": "Oyster",
+            "whitelist": [
+	    	"カキ"
+	    ],
+            "cname": "オイスター",
             "id": "B01MQQ4WLJ"
         },
         {
             "whitelist": [
-                "rice bowl with basa teriyaki",
-                "base teriyaki rice bowl",
-                "rice bowl with teriyaki basa"
+                "テリヤキ丼",
+                "バサ照り焼き丼",
+                "照り焼き丼"
             ],
-            "cname": "Teriyaki Basa Rice Bowl",
+            "cname": "バサテリヤキライスボール",
             "id": "B01NAD8T8M"
         },
         {
@@ -113,24 +117,26 @@
                 "sushi bowl",
                 "spicy salmonw ith rice and seaweed",
                 "salmon with rice and seaweed",
-                "spicy salmon with sides of rice and seaweed",
-                "poke combo and a coke"
+                "ポキ丼",
+                "ポケ丼",
+                "ポケコンボ（ドリンクセット）",
+                "ポケコンボ（コーラセット）"
             ],
-            "cname": "Poke Combo",
+            "cname": "ポケコンボ",
             "id": "B01N9BO6TD"
         },
         {
             "whitelist": [
                 "sandwich with smoked salmon"
             ],
-            "cname": "Smoked Salmon Sandwich",
+            "cname": "スモークサーモンサンドウィッチ",
             "id": "B01MST756F"
         },
         {
             "whitelist": [
                 "burger with fish"
             ],
-            "cname": "Fish Burger",
+            "cname": "フィッシュバーガー",
             "id": "B01MYTSCQE"
         },
         {
@@ -139,7 +145,7 @@
                 "clam chowder in medium size",
                 "medium creamy soup with clams"
             ],
-            "cname": "Clam Chowder",
+            "cname": "クラムチャウダー",
             "id": "B01MQQ4O0Q"
         },
         {
@@ -148,37 +154,39 @@
                 "shoyu poke with salmon",
                 "salmon poke with shoyo sauce",
                 "soyu salmon salad",
-                "soyo salmon poke",
-                "soyo poke with salmon",
-                "salmon poke with soyo sauce"
+                "サーモンポケソイソース",
+                "しょうゆサーモンポケ",
+                "サーモンポケしょうゆ味"
             ],
-            "cname": "Soyu Salmon Poke",
+            "cname": "醤油サーモンポケ",
             "id": "B01N9BO8RC"
         },
         {
             "whitelist": [
-                "tuna nigiri",
-                "maguro nigiri"
+                "マグロ握り",
+                "マグロ寿司",
+                "マグロ"
             ],
-            "cname": "Maguro (Tuna)",
+            "cname": "まぐろ",
             "id": "B01MZZCKDX"
         },
         {
             "whitelist": [
-                "sea eel nigiri",
-                "eel nigiri",
-                "unagi nigiri"
+                "うなぎ握り",
+                "うなぎにぎり",
+                "鰻",
+                "ウナギ"
             ],
-            "cname": "Unagi (Sea Eel)",
+            "cname": "うなぎ",
             "id": "B01MYTS99Z"
         },
         {
             "whitelist": [
-                "ebi shrimp",
-                "shrimp ebi",
-                "ebi shrimp roll"
+                "蝦",
+                "海老",
+                "えび"
             ],
-            "cname": "Ebi-Shrimp",
+            "cname": "エビ",
             "id": "B01MYTSAXT"
         },
         {
@@ -188,7 +196,7 @@
                 "spicy tuna and albacore roll",
                 "double tuna roll"
             ],
-            "cname": "Double Tuna Roll (8 Pcs)",
+            "cname": "ダブルツナロール(8 Pcs)",
             "id": "B01N2NYMTM"
         },
         {
@@ -196,23 +204,24 @@
                 "tuna sashimi",
                 "maguro"
             ],
-            "cname": "Maguro (Tuna)",
+            "cname": "まぐろ(Tuna)",
             "id": "B01MRRJ6BZ"
         },
         {
             "whitelist": [
                 "smoked salmon sashimi"
             ],
-            "cname": "Smoked Salmon",
+            "cname": "スモークサーモン",
             "id": "B01N9BOEVJ"
         },
         {
             "whitelist": [
                 "roll with shrimp",
                 "forty niners roll",
-                "forty niner roll"
+                "forty niner roll",
+		"49ers roll"
             ],
-            "cname": "49ers Roll",
+            "cname": "フォーティナイナーズロール",
             "id": "B01N480K9N"
         },
         {
@@ -222,9 +231,10 @@
                 "crab and scallop roll topped with salmon and masago",
                 "crab, scallop roll with samon and masago on top",
                 "scallop and crab roll topped with masago and salmon",
-                "scallop, crab roll with masago and salmon on top"
+                "scallop, crab roll with masago and salmon on top",
+		"Basaスペシャルロール"
             ],
-            "cname": "Basa Special Roll",
+            "cname": "バサスペシャルロール",
             "id": "B01N7CB0OD"
         },
         {
@@ -232,18 +242,24 @@
                 "asian style garlic shrimp rice bowl",
                 "asian rice bowl with garlic shrimp",
                 "rice bowl with garlic shrimps",
-                "garlic shrimps in rice bowl"
+                "garlic shrimps in rice bowl",
+		"アジアンライス",
+		"ガーリックエビ丼",
+		"にんにくエビ丼",
+		"アジアンエビガーリックボウル"
             ],
-            "cname": "Asian Garlic Shrimp Rice Bowl",
+            "cname": "アジアンガーリックシュリンプライスボウル",
             "id": "B01MRRJC01"
         },
         {
             "whitelist": [
                 "creamy spicy salmon poke",
                 "poke with creamy spicy salmon",
-                "poke with spicy creamy salmon"
+                "poke with spicy creamy salmon",
+		"スパイシーサーモンポケ",
+		"クリーミーサーモンポケ"
             ],
-            "cname": "Spicy Creamy Salmon Poke",
+            "cname": "スパイシークリーミーサーモンポケ",
             "id": "B01MYTS235"
         },
         {
@@ -462,9 +478,11 @@
         },
         {
             "whitelist": [
-                "chef's choice combo"
+                "シェフズチョイスコンボ",
+                "シェフズコンボ",
+                "シェフコンボ"
             ],
-            "cname": "Chef Special Combo",
+            "cname": "シェフスペシャルコンボ",
             "id": "B01MTUOW2J"
         },
         {
@@ -4327,40 +4345,40 @@
             "whitelist": [
                 "orange sparkling water",
                 "orange mineral water",
-                "san pellegrino orange",
-                "orange bubbly water"
+                "オレンジ炭酸水",
+                "サンペレグリノ（オレンジ）"
             ],
-            "cname": "Orange San Pellegrino",
+            "cname": "オレンジサンペレグリノ",
             "id": "B01D8TCUP2"
         },
         {
             "whitelist": [
-                "margarita pizza",
-                "margherita pizza",
-                "gluten-free margherita pizza",
-                "mozzarella tomato basil pizza",
-                "mozzarella and tomato pizza"
+                "マルゲリータ",
+                "マルゲリータピザ",
+                "グルテンフリーマルガリータピザ",
+                "ピッツァマルガリータ",
+                "ピザマルガリータ"
             ],
-            "cname": "Margherita Pizza (Gluten Free)",
+            "cname": "マルガリータピザ(グルテンフリー)",
             "id": "B01D8TCRWI"
         },
         {
             "whitelist": [
-                "gluten-free sausage and mushroom pizza",
-                "mushroom and sausage pizza",
-                "sausage mushroom tomato pizza",
-                "sausage tomato mushroom pizza"
+                "グルテンフリーソーセージとマッシュルームのピザ",
+                "ソーセージときのこのピザ",
+                "ソーセージとマッシュルームピザ",
+                "ソーセージとマッシュルームのピザ"
             ],
-            "cname": "Sausage and Mushroom Pizza (Gluten Free)",
+            "cname": "ソーセージとマッシュルームのピザ（グルテンフリー）",
             "id": "B01D8TD5T2"
         },
         {
             "whitelist": [
-                "mexican cola",
+                "メキシカンコーク",
                 "mexican coca cola",
                 "coke from mexico"
             ],
-            "cname": "Mexican Coke",
+            "cname": "メキシカンコーラ",
             "id": "B01D8TCIZO"
         },
         {
@@ -4371,20 +4389,20 @@
                 "red pepper pest and goat cheese with the roasted red peppers",
                 "roasted red pepper pesto with goat cheese",
                 "pesto and roasted red pepper with goat cheese",
-                "pesto goat cheese pizza",
-                "goat cheese pizza",
-                "pizza goat cheese and pesto"
+                "バジルと唐辛子のピザ",
+                "ゴートチーズのピザ",
+                "ヤギのチーズと唐辛子のバジルピザ"
             ],
-            "cname": "Pesto with Red Pepper and Goat Cheese",
+            "cname": "ゴートチーズと唐辛子のバジルピザ",
             "id": "B01D8TDCQI"
         },
         {
             "whitelist": [
-                "white four cheese pizza",
-                "white pizza",
-                "four cheese pizza"
+                "白ピザ",
+                "ホワイトピザ",
+                "４種チーズのピザ"
             ],
-            "cname": "Four Cheese White Pizza",
+            "cname": "四種チーズのホワイトピザ",
             "id": "B01D8TDEK2"
         },
         {

@@ -1,7 +1,9 @@
 make that {one|sys_number|num_orders} plate of {vegetable lumpia|dish} and {ten|sys_number|num_orders} orders of {pork sasig|dish}
 {lamb curry|dish} with a {side of rice|option} from the {burmese cafe|restaurant}
 i'll get a {normal cheese pizza|dish} with {extra cheese|option} and {extra sauce|option}
+{ホワイトピザ|dish}に{オリーブ|option}と{ソーセージ|option}をトッピングして
 What do you have for {dinner|category}?
+{人気商品|category}はありますか？
 i want a {half ramen and omusubi|dish} pork
 {appetizers|category}
 can i get a {regular poki bowl|dish} with {tuna|option} and {yellow tail|option}
@@ -328,6 +330,7 @@ I'll have the {gluten free|option} {pizza caprese|dish} from {oz|restaurant}
 i'll take a {cookies and cream|option} {macaron|dish}
 a {kabob wrap|dish}, {2|sys_number|num_orders} {falafel wraps|dish}, and a {vegetable wrap|dish}
 order an {extra large|option} {pizza|dish} with {onions|option}, {diced tomatoes|option} and {extra sauce|option}
+{ラージ|option}の{ホワイトピザ|dish}を{オニオン|option}と{トマト|option}と{エクストラソース|option}で頼んで
 {Thai|cuisine}
 i'll get a {avocado veggie|dish} with {bacon|option} and extra {pesto sauce|option} please
 i want {roasted chicken|dish}
@@ -458,6 +461,7 @@ add {onion|option} and don't add {lemon|option}
 Add {green onion|option} to the {Chicken Bowl|dish}
 Could you add a {hummus with pita|dish}
 {chef combo|dish} with the {basa fish|option} and a {coke|dish}
+{シェフコンボ|dish}を{バサフィッシュ|option}と{コーラ|dish}付きで
 I would like some {Har Gow|dish}
 can i get the {Firecracker Burger|dish}, {medium|option} with {extra cheese|option}?
 {One|sys_number|num_orders} {Veggie Burrito|dish} and {one|sys_number|num_orders} {Grilled Cheese|dish} from {Grandma's Deli|restaurant}.
@@ -723,7 +727,7 @@ I would like to have a {Crispy Tempeh|dish} and a {2x Fried Chicken Wings|dish}
 I'll just have {one|sys_number|num_orders} {Lamb Shawerma|dish}.
 I also would like to get a {yum woon-sen salad|dish}
 From {Basa Seafood|restaurant} place orders for {one|sys_number|num_orders} {Rainbow Roll|dish} and {one|sys_number|num_orders} {Scallop Hotate|dish}.
-{Basaシーフード|restaurant}から{Rainbow Roll|dish}を{１|sys_number|num_orders}つと{Scallop Hotate|dish}を{１|sys_number|num_orders}つ注文しようかな
+{バサシーフード|restaurant}から{海藻サラダ|dish}を{1|sys_number|num_orders}つと{ドラゴンロール|dish}を{1|sys_number|num_orders}つ注文しようかな
 Ooo, can I get a {margherita|dish} and a {chocolate caramel tart|dish} please?
 Can I add {jalapenos|option} to the {compromise|dish} please
 What {cafes|cuisine} are {popular|category} in this neighborhood?
@@ -1036,9 +1040,10 @@ let's do a {7|sys_number|item_size} ounce chicken
 let's do a {12|sys_number|item_size} ounce water
 {6|sys_number|item_size} ounce coffee
 let's do a {10|sys_number|item_size} ounce chicken
-チキンを{100|sys_number|item_size}グラムでよろしく
-コーヒーを{100|sys_number|item_size}グラムでよろしく
-珈琲を{100|sys_number|item_size}グラムでよろしく
+チキンを{10|sys_number|item_size}グラムでよろしく
+コーヒーを{6|sys_number|item_size}グラムでよろしく
+珈琲を{12|sys_number|item_size}グラムでよろしく
 {ココイチ|restaurant}から注文したいな？
 {ココイチ|restaurant}から注文したいな
 {ココイチ|restaurant}に頼もうかな
+{ファイアトレイル|restaurant}の{ピザ|dish}を食べたいな
