@@ -1,0 +1,45 @@
+{
+    "entities": [
+        {
+            "whitelist": [
+                "basa",
+                "basa express",
+                "basa seafood",
+		"basaシーフード",
+		"basaエクスプレス",
+		"バサエクスプレス",
+		"バサシーフード",
+		"バサ"
+            ],
+            "cname": "バサシーフードエクスプレス",
+            "id": "B01N97KQNJ"
+        },
+        {
+            "whitelist": [
+                "Monk's kettle",
+                "Monk's",
+                "モンクズ",
+                "モンクス",
+                "モンクスケトル",
+                "モンクズケトル",
+                "Monks",
+                "モンクケトル",
+                "モンク",
+                "Monk"
+            ],
+            "cname": "モンクのやかんMonk's Kettle",
+            "id": "B01CT9VDD2"
+        },
+        {
+            "whitelist": [
+                "ファイアトレイル",
+                "ファイアートレイル",
+                "ファイヤトレイル",
+                "ファイヤートレイル",
+                "Firetrail Pizza",
+                "Firetrail"
+            ],
+            "cname": "ファイアトレイルピザ",
+            "id": "B01CT54GYE"
+        }
+    ]}
